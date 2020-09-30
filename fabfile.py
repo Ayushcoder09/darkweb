@@ -4,7 +4,8 @@ from fabric.contrib import project
 env.local_static_root = '/tmp/static.darkscience.ws'
 env.remote_static_root = '/srv/http/'
 
-env.roledefs.update({
+env.roledefs.update
+({
     'static': ['amnesia.darkscience.ws',],
 })
 
